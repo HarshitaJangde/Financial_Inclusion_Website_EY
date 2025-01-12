@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 from utils import preprocess_input
-from mappings import LIST_MAPPINGS, TRAVEL_MAPPINGS, CLUSTERING_MAPPINGS, ANOMALY_MAPPINGS
+from mappings import LIST_MAPPINGS, IMPROVEMENT_MAPPINGS, CLUSTERING_MAPPINGS, ANOMALY_MAPPINGS
 
 app = Flask(__name__)
 
@@ -40,7 +40,7 @@ def predict():
 
         # Fetch suggestions based on predictions
         policy_suggestions = LIST_MAPPINGS.get(prediction1, ["No policy advice available."])
-        investment_suggestions = TRAVEL_MAPPINGS.get(prediction2, "No suggestions available.")
+        investment_suggestions = IMPROVEMENT_MAPPINGS.get(prediction2, "No suggestions available.")
         goal_timeline = f"Estimated time to goal: {prediction3} months."  # For LinearRegression
         cluster_info = CLUSTERING_MAPPINGS.get(prediction4, "Cluster information not available.")
         anomaly_status = ANOMALY_MAPPINGS.get(prediction5, "No anomaly detected.")

@@ -188,6 +188,7 @@ const BudgetingPage = () => {
           {error && <p className="error">{error}</p>}
           {analysis ? (
             <>
+              <p>{t("BudgetingPage.anomaly_status")}: {analysis.anomalyStatus}</p>
               <p>
                 {t("BudgetingPage.investment_suggestions")}:{" "}
                 {analysis.investmentSuggestions}
@@ -200,7 +201,6 @@ const BudgetingPage = () => {
               </p>
               <p>{t("BudgetingPage.goal_timeline")}: {analysis.goalTimeline}</p>
               <p>{t("BudgetingPage.cluster_info")}: {analysis.clusterInfo}</p>
-              <p>{t("BudgetingPage.anomaly_status")}: {analysis.anomalyStatus}</p>
             </>
           ) : (
             <p>{t("BudgetingPage.please_fill_form_first")}</p>
