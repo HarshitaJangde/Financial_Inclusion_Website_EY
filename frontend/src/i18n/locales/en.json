@@ -1,0 +1,132 @@
+{
+    "HomeSection": {
+      "title": "Empower Her Finances, Empower Her Future.",
+      "description": "Welcome to <b>SakhiSangam</b>, the AI-powered platform dedicated to empowering women in rural communities to achieve financial independence. We simplify the complex world of finance with tools and resources designed for accessibility and ease of use.",
+      "features": {
+        "learn": "Learn Smartly: Gamified lessons in local languages.",
+        "plan": "Plan Better: AI tools for budgeting and goal-based planning.",
+        "support": "Find Support: Connect with mentors and inspiring entrepreneurs.",
+        "accessible": "Stay Accessible: 24/7 chatbot and offline functionality for anytime learning."
+      }
+    },
+    "LearningPage": {
+      "selectOption": "Select Option",
+      "options": {
+        "budgeting": "Budgeting",
+        "savings": "Savings",
+        "investment": "Investment"
+      },
+      "tags": {
+        "savings": "S-1",
+        "financialPlanning": "FP-1",
+        "loan": "L-1"
+      },
+      "lessons": {
+        "savingsGuide": "Beginners Guide to Savings",
+        "startLesson": "Start Lesson",
+        "savingsDesc": "Savings Guide",
+        "financialPlanning": "Financial Planning for Families",
+        "loanManagement": "Loan Management"
+      },
+      "language": "Language"
+    },
+        "BudgetingPage": {
+          "budgeting_service": "Budgeting Service",
+          "monthlyIncome": "Monthly Income",
+          "monthlySavings": "Monthly Savings",
+          "travelExpense": "Travel Expenses",
+          "commuteExpense": "Commute Expenses",
+          "personalExpense": "Personal Expenses",
+          "educationExpense": "Education Expenses",
+          "seasonalExpense": "Seasonal Expenses",
+          "loans": "Loans",
+          "goals": "Financial Goals",
+          "submit": "Submit",
+          "please_fill_form_first": "Please fill out the form first.",
+          "analysis_of_your_budget": "Analysis of Your Budget",
+          "policy_suggestions": "Policy Suggestions",
+          "investment_suggestions": "Investment Suggestions",
+          "goal_timeline": "Timeline of reaching your goal",
+          "cluster_info": "Segmentation",
+          "anomaly_status": "Is there room for improvement?",
+          "login_required": "You need to log in to access this page.",
+          "enter_monthlyIncome": "Enter your monthly income",
+          "enter_monthlySavings": "Enter your monthly savings",
+          "enter_travelExpense": "Enter your travel expenses",
+          "enter_commuteExpense": "Enter your commute expenses",
+          "enter_personalExpense": "Enter your personal expenses",
+          "enter_educationExpense": "Enter your education expenses",
+          "enter_seasonalExpense": "Enter your seasonal expenses",
+          "enter_loans": "Enter your loan amounts",
+          "enter_goals": "Enter your financial goals"
+        },
+          
+    "QuizPage": {
+    "selectOption": "Select Option",
+    "options": {
+      "budgeting": "Budgeting",
+      "savings": "Savings",
+      "investment": "Investment"
+    },
+    "tags": {
+      "Q-1": "Q-1",
+      "Q-2": "Q-2",
+      "Q-3": "Q-3"
+    },
+    "lessons": {
+      "basicBudgetingQuiz": "Basic Budgeting Quiz",
+      "savingsStrategiesQuiz": "Savings Strategies Quiz",
+      "investmentQuiz": "Investment Quiz"
+    },
+    "language": "Language",
+    "playButton": "Play"
+  },
+  "UserProfile": {
+    "profilePageTitle": "Profile Page",
+    "editButton": "Edit",
+    "saveButton": "Save",
+    "rank": "Rank",
+    "points": "Points",
+    "quizzesCompleted": "Quizzes Completed",
+    "badgesEarned": "Badges Earned",
+    "courseProgressTitle": "Course Progress",
+    "coursesCompleted": "Courses Completed",
+    "ongoingCourse": "Ongoing Course"
+  },
+  "Navbar": {
+    "logoAlt": "SakhiSangam Logo",
+    "home": "Home",
+    "learning": "Learning",
+    "quizzesGames": "Quizzes/Games",
+    "budgeting": "Budgeting",
+    "findYourMentor": "Find Your Mentor",
+    "profile": "Profile",
+    "profileAlt": "Profile",
+    "logout": "Logout",
+    "loginSignUp": "Login/Sign Up"
+  },
+  "Login": {
+    "imageAlt": "Community",
+    "title": "Login",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "loginButton": "Login",
+    "signupLink": "Create an account",
+    "forgotPasswordLink": "Forgot password?"
+  },
+  "SignUp": {
+    "imageAlt": "Community",
+    "title": "Sign Up",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "signUpButton": "Sign Up",
+    "backToLoginLink": "Back to login"
+  }
+  }
+  
