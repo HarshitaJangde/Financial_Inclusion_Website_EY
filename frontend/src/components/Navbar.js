@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import logoimage from '../assets/ss_logo.jpg';
+import logoimage from '../assets/SakhiSangam_logo.png';
 import Userimg from "../assets/userprofile.png";
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
