@@ -66,6 +66,7 @@
   font-size: 14px;
   color: #000;
   overflow-y: auto; /* Adds scroll for messages */
+  scroll-behavior: smooth;
 }
 
 .chatbot-footer {
@@ -75,7 +76,7 @@
   padding: 10px;
   background-color: #ff9aca; /* Add background for better visibility */
   border-top: 1px solid #ddd;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
